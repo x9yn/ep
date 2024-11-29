@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Poverty Awareness</title>
+        <link rel = "stylesheet" href = "assets/css/navbar.css">
+        <link rel = "stylesheet" href = "assets/css/content.css">
+        <link rel = "stylesheet" href = "assets/css/stats.css">
+        <link rel = "stylesheet" href = "assets/css/button.css">
+        <link rel = "stylesheet" href = "assets/css/footer.css"
+        <meta charset="UTF-8">
+
+    </head>
+    <body>
+
+        <!--Hey! This website was built for an ethnics projects. The comments are used to direct what each
+        
+            line of code does. Why are you reading my code?
+        -->
+
+        <!--simple navigation bar. using divs because its easiest.-->
+        <div class = "navBar">
+            <br> <!-- Don't always use this. use margin as a way to "move" the content up or down.-->
+            <h1 class = "navTitle">Poverty Awareness</h1>
+            <a class = "navLinks" href = "learn.html">Learn More</a>
+            <a class = "navLinks" href = "https://donate.givedirectly.org" target = "_blank">Donate</a>
+            <a class = "navLinks" href = "https://google.com" target = "_blank">Our Presentation</a>
+            
+
+        <!--<a class = "navLinks" href = "https://www.givedirectly.org" target = "_blank">Donate</a>
+            <a class = "navLinks" href = "https://google.com" target = "_blank">Our Presentation</a>-->
+        </div>
+        <p class = "invis">a</p>
+        <div class = "yap">
+            <h1 class = "title">Poverty</h1>
+            <center>
+                <p class = "centerOrient">Poverty is a complex issue that goes beyond simply not having enough money. It's about lacking the resources to meet basic needs like food, clothing, and shelter. Poverty can't be solved in one day. It needs help from donations, governments, and people like you. However, the education of poverty is also important.</p>
+                <br>
+                <a class = "" href = "https://www.britannica.com/topic/poverty" target = "_blank"><p class = "buttonTest">Poverty Definition</p></a>
+            </center>
+        </div>
+
+        <p class = "invis"><br></p>
+        <p class = "invis"><br></p>
+        
+        <!--    Poverty Statistics here.    -->
+        <!--    Include info such as countries in poverty, people in poverty, and percentage of the world in poverty-->
+        <h1 class = "title">Questions about Poverty</h1>
+        <div class = "statContainer">
+            <div class = "stats">
+                <button onClick = "changeText('sufferingPoverty','Over 712 million people suffer from poverty every day.')"><h2 id = "suffer">How much people suffer from poverty?</h2></button>
+                <p class = "textInline" id = "sufferingPoverty"></p>
+            </div>
+            <div class = "stats">
+                <button onClick = "changeText('percentOfTheWorld','44 Percent of the entire world suffers from poverty. ')"><h2 id = "suffer">How much of the whole world suffers from poverty?</h2></button>
+                <p class = "textInline"id = "percentOfTheWorld"></h2>
+            </div>
+            <div class = "stats">
+                <button onClick = "changeText('povertyCauses', 'Corruption, gender, race, exploitation, and government are possible causes.')"><h2>What causes poverty?</h2></button>
+                <p id = "povertyCauses"></p>
+            </div>
+            <div class = "stats">
+                <button onClick = "changeText('questions','Press Learn More.')"><h2 id = "suffer">Have more questions?</h2></button>
+                <p class = "textInline"id = "questions"></h2>
+            </div>
+        </div>
+
+        <div class = "footer">
+            <h1 class = "footerContained"> Website by Chad R. </h1>
+            <h1 class = "footerContained"> Research by Khachik G.</h1>
+            <h1 class = "footerContained"> Check out the code on <span><a href = "https://github.com" target = _blank >Github!</a></span></h1>
+        </div>
+    </body>
+    <script src = "assets/bts.js"></script>
+</html>

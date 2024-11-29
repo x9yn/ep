@@ -1,0 +1,20 @@
+.stats{
+    margin-right:76px;
+    margin-left:76px;
+    padding-right:40px;
+    display:block;
+}
+
+.statImg{
+    margin-left:20px;
+}
+.statContainer{
+    margin-left:150px;
+}
+
+.statInfo{
+    font-family:Arial, Helvetica, sans-serif;
+    color:lightgray;
+    font-size:24px;
+    text-align:center;
+}

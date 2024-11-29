@@ -1,0 +1,46 @@
+.navBar{
+    background-color:aquamarine;
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:100px;
+    width:100%;
+    top:12px;
+    right:9px;
+    position:fixed;
+    
+}
+.navTitle{
+    margin-top:0px;
+    text-align:left;
+    margin-left:50px;
+    float:left;
+    margin:right;
+    padding-right:105px;
+}
+.navbar div{
+    display:inline-block;
+}
+.navLinks{
+    color:rgb(46, 46, 46);
+    text-decoration:none;
+    display:inline-block;
+    padding-top:10px;
+    padding-right:50px;
+    padding-left:50px;
+    padding-bottom:10px;
+    margin-right:40px;
+    margin-top:6px;
+    background-color:white;
+    /*add background design to the button. also add some effects and stuff. */
+}
+.navLinks:hover{
+    color:white;
+    background-color:gray;
+}
+
+
+body{
+    background-color:rgba(31, 53, 104, 0.53);
+}
+
+
