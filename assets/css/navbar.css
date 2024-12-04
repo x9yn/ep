@@ -7,7 +7,12 @@
     top:12px;
     right:9px;
     position:fixed;
-    
+    border-radius:12px;
+
+    /*add animation to this thing*/
+    background: linear-gradient(-45deg, gray, white, lightgray, white);
+	background-size: 600% 600%;
+	animation: gradAni 30s ease infinite;
 }
 .navTitle{
     margin-top:0px;
@@ -31,6 +36,7 @@
     margin-right:40px;
     margin-top:6px;
     background-color:white;
+    border-radius:12px;
     /*add background design to the button. also add some effects and stuff. */
 }
 .navLinks:hover{
